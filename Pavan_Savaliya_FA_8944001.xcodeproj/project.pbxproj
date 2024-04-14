@@ -17,6 +17,11 @@
 		E274A15A2BC9FE7700AD4365 /* Pavan_Savaliya_FA_8944001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274A1592BC9FE7700AD4365 /* Pavan_Savaliya_FA_8944001Tests.swift */; };
 		E274A1642BC9FE7700AD4365 /* Pavan_Savaliya_FA_8944001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274A1632BC9FE7700AD4365 /* Pavan_Savaliya_FA_8944001UITests.swift */; };
 		E274A1662BC9FE7700AD4365 /* Pavan_Savaliya_FA_8944001UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274A1652BC9FE7700AD4365 /* Pavan_Savaliya_FA_8944001UITestsLaunchTests.swift */; };
+		E274A1732BC9FEC300AD4365 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274A1722BC9FEC300AD4365 /* Weather.swift */; };
+		E274A1752BC9FEEF00AD4365 /* newsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274A1742BC9FEEF00AD4365 /* newsViewController.swift */; };
+		E274A1772BC9FF0A00AD4365 /* weatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274A1762BC9FF0A00AD4365 /* weatherViewController.swift */; };
+		E274A1792BC9FF2C00AD4365 /* historyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274A1782BC9FF2C00AD4365 /* historyViewController.swift */; };
+		E274A17B2BC9FF5600AD4365 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274A17A2BC9FF5600AD4365 /* mapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		E274A15F2BC9FE7700AD4365 /* Pavan_Savaliya_FA_8944001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pavan_Savaliya_FA_8944001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E274A1632BC9FE7700AD4365 /* Pavan_Savaliya_FA_8944001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pavan_Savaliya_FA_8944001UITests.swift; sourceTree = "<group>"; };
 		E274A1652BC9FE7700AD4365 /* Pavan_Savaliya_FA_8944001UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pavan_Savaliya_FA_8944001UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E274A1722BC9FEC300AD4365 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		E274A1742BC9FEEF00AD4365 /* newsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsViewController.swift; sourceTree = "<group>"; };
+		E274A1762BC9FF0A00AD4365 /* weatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherViewController.swift; sourceTree = "<group>"; };
+		E274A1782BC9FF2C00AD4365 /* historyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyViewController.swift; sourceTree = "<group>"; };
+		E274A17A2BC9FF5600AD4365 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,11 @@
 				E274A14D2BC9FE7700AD4365 /* LaunchScreen.storyboard */,
 				E274A1502BC9FE7700AD4365 /* Info.plist */,
 				E274A1482BC9FE7500AD4365 /* Pavan_Savaliya_FA_8944001.xcdatamodeld */,
+				E274A1722BC9FEC300AD4365 /* Weather.swift */,
+				E274A1742BC9FEEF00AD4365 /* newsViewController.swift */,
+				E274A1762BC9FF0A00AD4365 /* weatherViewController.swift */,
+				E274A1782BC9FF2C00AD4365 /* historyViewController.swift */,
+				E274A17A2BC9FF5600AD4365 /* mapViewController.swift */,
 			);
 			path = Pavan_Savaliya_FA_8944001;
 			sourceTree = "<group>";
@@ -263,8 +278,13 @@
 			files = (
 				E274A14A2BC9FE7500AD4365 /* Pavan_Savaliya_FA_8944001.xcdatamodeld in Sources */,
 				E274A1442BC9FE7500AD4365 /* ViewController.swift in Sources */,
+				E274A1772BC9FF0A00AD4365 /* weatherViewController.swift in Sources */,
 				E274A1402BC9FE7500AD4365 /* AppDelegate.swift in Sources */,
 				E274A1422BC9FE7500AD4365 /* SceneDelegate.swift in Sources */,
+				E274A1732BC9FEC300AD4365 /* Weather.swift in Sources */,
+				E274A17B2BC9FF5600AD4365 /* mapViewController.swift in Sources */,
+				E274A1752BC9FEEF00AD4365 /* newsViewController.swift in Sources */,
+				E274A1792BC9FF2C00AD4365 /* historyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
